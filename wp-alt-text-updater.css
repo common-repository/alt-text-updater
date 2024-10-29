@@ -1,0 +1,62 @@
+/* Button styling */
+#submit-button {
+  font-size: 18px;
+  padding: 8px 35px;
+  margin-top: 20px;
+  margin-left: 25px;
+  display: block;
+  background-color: #2271b1;
+  color: #fff;
+  border: 3px solid #2271b1;
+  cursor: pointer;
+}
+
+/* Radio button styling */
+.radio-label {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.radio-label:hover {
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+/* Progress bar */
+#progress-bar-wrapper {
+  width: 100%;
+  background-color: #ddd;
+  margin-top: 20px;
+  display: none;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+#progress-bar {
+  width: 0;
+  height: 30px;
+  background-color: #4caf50;
+  transition: width 0.5s ease;
+}
+
+#progress-text {
+  text-align: center;
+  position: relative;
+  top: -30px;
+  font-weight: bold;
+  color: white;
+}
+
+div#csv-upload-section input#csv_file {
+  margin-top: 10px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+form#alt-text-updater-form p#select-option {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
